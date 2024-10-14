@@ -1,0 +1,12 @@
+doctype html
+html
+  head
+    title Todos los Usuarios
+  body
+    h1 Lista de Usuarios
+    ul
+      each user in users
+        li #{user.name} #{user.lastname} - #{user.email}
+    a(href='/') Volver al formulario
+
+
